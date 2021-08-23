@@ -1,0 +1,12 @@
+2021-08-22 08:36:48,719:INFO - Websocket connection successful
+2021-08-22 08:36:48,804:INFO - getSessionCSV(): HG next open 2021-08-22 22:00:00
+2021-08-22 08:36:48,851:INFO - getSessionCSV(): SI next open 2021-08-22 22:00:00
+2021-08-22 08:36:48,897:INFO - getSessionCSV(): GC next open 2021-08-22 22:00:00
+2021-08-22 08:36:48,939:INFO - getSessionCSV(): PA next open 2021-08-22 22:00:00
+2021-08-22 08:36:49,013:INFO - getSessionCSV(): NG next open 2021-08-22 22:00:00
+2021-08-22 08:36:49,081:INFO - getSessionCSV(): CL next open 2021-08-22 22:00:00
+2021-08-22 08:36:49,169:INFO - getSessionCSV(): ZW next open 2021-08-23 00:00:00
+2021-08-22 08:36:49,214:INFO - getSessionCSV(): ZC next open 2021-08-23 00:00:00
+2021-08-22 08:36:49,260:INFO - getSessionCSV(): ZS next open 2021-08-23 00:00:00
+2021-08-22 08:36:49,261:INFO - Updated cron-rotating.cron
+2021-08-22 08:36:49,261:INFO - Connection closed

@@ -1,0 +1,11 @@
+# cron self-update next market open timings at 2105h 
+5 21 * * mon-fri python3 ~/live-system/src/update_cron.py && /usr/bin/bash -c "~/live-system/bin/crons/update-cron.sh"
+
+# cron watchdog every (5t + 3) min 
+3-59/5 * * * * /usr/bin/bash -c "~/live-system/bin/watchdog/restart-script.sh"
+
+# EOD update message
+0 21 * * mon-fri python3 ~/live-system/src/acc_status.py --command dailypnl margin positions 
+ 
+0 22 22 8 * python3 ~/live-system/src/main.py --tickers HG SI GC PA NG CL --date 20210822 22:00:00
+0 0 23 8 * python3 ~/live-system/src/main.py --tickers ZW ZC ZS --date 20210823 00:00:00

@@ -1,0 +1,1 @@
+python3 ~/live-system/src/main.py --tickers ZW ZC ZS --date 20210823 00:00:00

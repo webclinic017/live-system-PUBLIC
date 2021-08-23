@@ -1,0 +1,2 @@
+0 22 22 8 * python3 ~/live-system/src/main.py --tickers HG SI GC PA NG CL --date 20210822 22:00:00
+0 0 23 8 * python3 ~/live-system/src/main.py --tickers ZW ZC ZS --date 20210823 00:00:00
